@@ -1,0 +1,68 @@
+body{
+
+font-size: 25px;
+color: white;
+background: rgb(129, 7, 76);
+
+}
+
+header{
+
+    font-size: 40px;
+    color:rgb(255, 0, 128);
+    background: rgb(70, 2, 30);
+    border-bottom: solid 3px rgb(201, 36, 113);
+    padding: 30px;
+    display:flex;
+    justify-content: center;
+}
+
+.cima{
+
+    background: rgb(255, 163, 220);
+    color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.baixo{
+
+    background: rgb(219, 10, 149);
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:flex;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+div{
+    margin-right: 1%;
+}
+
+.seletor{
+    display:flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+section{
+    display: flex;
+    background: rgb(224, 7, 224);
+    padding: 20px;
+}
+
+.seletor img {
+    opacity: 0.8;
+    height: 200px;
+}
+.seletor img:hover {
+    opacity: 1.0;
+    height: 210px;
+}
